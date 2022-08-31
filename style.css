@@ -1,7 +1,15 @@
 /* Navigation Bar */
 
 
-.nav-link {
-    /* text-align:right; */
-    background-color: brown;
+#latitude {
+    background-color: green;
+    margin-left: 0px;
+    font-size: 30px;
+
+}
+
+#main {
+
+    padding-top: 60px;
+    padding-left: 60px;
 }
