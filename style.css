@@ -1,3 +1,7 @@
-h1 {
-    text-align:Left;
+/* Navigation Bar */
+
+
+.nav-link {
+    /* text-align:right; */
+    background-color: brown;
 }
