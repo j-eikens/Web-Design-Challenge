@@ -13,3 +13,27 @@
     padding-top: 60px;
     padding-left: 60px;
 }
+
+#fig_caption_1 {
+
+    /* text-align: right */
+}
+
+#image_1 {
+    background-color: blueviolet;
+    padding-top: 60px;
+}
+
+#summary_header {
+    padding-top: 20 px;
+    padding-bottom: 20px;
+}
+
+#summary {
+    background-color: rgb(0, 255, 47);
+}
+
+#visualization {
+    margin-bottom: 40px;
+    background-color: blanchedalmond;
+}
