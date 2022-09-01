@@ -15,13 +15,14 @@
 }
 
 #fig_caption_1 {
+    /* max-width: 60px; */
 
     /* text-align: right */
 }
 
 #image_1 {
-    background-color: blueviolet;
-    padding-top: 60px;
+    /* background-color: blueviolet; */
+    /* padding-top: 60px; */
 }
 
 #summary_header {
@@ -31,9 +32,17 @@
 
 #summary {
     background-color: rgb(0, 255, 47);
+    /* max-width: 600px; */
 }
 
 #visualization {
     /* margin-bottom: 40px; */
     background-color: blanchedalmond;
 }
+
+#f1 {
+
+    border-style:groove ;
+}
+
+

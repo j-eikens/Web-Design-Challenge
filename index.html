@@ -20,8 +20,8 @@
                 <!-- Navbar -->
 
                 <nav class="navbar navbar-expand-lg bg-light">
-                    <div class="container-fluid">
-                      <a id="latitude" class="navbar-brand" href="#">Latitude</a>
+                    <div id="latitude" class="container-fluid">
+                      <a  class="navbar-brand" href="index.html">Latitude</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -43,18 +43,19 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Plots                            </a>
                                 <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  <li><a class="dropdown-item" href="visualization_1.html">Max Temperature</a></li>
+                                  <li><a class="dropdown-item" href="visualization_2.html">Humidity</a></li>
+                                  <li><a class="dropdown-item" href="visualization_3.html">Cloudiness</a></li>
+                                  <li><a class="dropdown-item" href="visualization_4.html">Windspeed</a></li>
+
                                 </ul>
                               </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Comparison</a>
+                                <a class="nav-link" href="comparison.html">Comparison</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Data</a>
+                                <a class="nav-link" href="data.html">Data</a>
                             </li>                       
                         </ul>
                       </div>
@@ -69,34 +70,21 @@
         <div id="main" class="row">
             
             <!-- left side figure -->
-            <div id ="summary" class = 'col-lg-7'>
+            <div id ="summary" class = 'col-lg-6'>
                 <h1 id="summary_header">Summary: Effects of Latitude</h1>
                 <hr>
                 
-                
-                <div class ="row">
-                    <div class="col-lg-8">
                         <figure id="fig_caption_1" class="figure">
                             <img id="image_1" src="/assets/images/Fig1.png" class="figure-img img-fluid rounded" alt="Max Temp vs Latitude">  
                         </figure>
-
-                    </div>
                     
-                    <div class="col-lg-4">
+
                         <figcaption class="figure-caption text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eligendi sunt saepe vero non sit totam quo ipsam dolor, delectus, sequi a. Doloribus, incidunt voluptatibus accusamus cumque ducimus animi laudantium rerum quos temporibus iusto soluta rem obcaecati minima tempore, unde autem. Animi vel cupiditate veniam voluptatibus officiis adipisci doloremque, ad facere unde perferendis placeat, libero temporibus illum asperiores dolores, distinctio beatae alias. Error ab expedita, quas harum laborum, beatae exercitationem fugit a voluptatem tempore perspiciatis dolorum eaque placeat. Sed dolore error at deleniti odio ipsa tempore? Impedit, exercitationem enim aliquam molestiae consequuntur ipsam laudantium tempore doloribus numquam asperiores maiores. Repudiandae.</figcaption>
-                    </div>
-
-                
-
-                </div>
             </div>
 
-            <div class="col-lg-1">
-
-            </div>
-        
-            <!-- right side figure -->
-            <div id="visualization" class='col-lg-4'>
+          
+            <!-- right side border -->
+            <div id="visualization" class='col-lg-6'>
                 
                 <h1>Visualizations</h1>
                 <hr>
@@ -107,27 +95,27 @@
 
                         <div class = 'col-sm-3 col-lg-6'>
                             <a target="_blank" href="visualization_1.html">
-                            <img id="image_2" src="/assets/images/Fig1.png" class="figure-img img-fluid rounded" alt="Max Temp vs City Latitude">
+                            <img src="/assets/images/Fig1.png" class="figure-img img-fluid rounded" alt="Max Temp vs City Latitude">
                             </a>
                         </div>
 
                         <div class = 'col-sm-3 col-lg-6'>
                             <a target="_blank" href="visualization_2.html">
-                            <img id="image_2" src="/assets/images/Fig2.png" class="figure-img img-fluid rounded" alt="Humidity vs City Latitude">
+                            <img src="/assets/images/Fig2.png" class="figure-img img-fluid rounded" alt="Humidity vs City Latitude">
                             </a>    
                         </div>
 
                         <!-- bottom row of images -->
 
                         <div class = 'col-sm-3 col-lg-6'>
-                            <a target="_blank" href="visualization_2.html">
-                            <img id="image_2" src="/assets/images/Fig3.png" class="figure-img img-fluid rounded" alt="Cloudiness vs City Latitude">
+                            <a target="_blank" href="visualization_3.html">
+                            <img src="/assets/images/Fig3.png" class="figure-img img-fluid rounded" alt="Cloudiness vs City Latitude">
                             </a>
                         </div>
     
                         <div class = 'col-sm-3 col-lg-6'>
-                            <a target="_blank" href="visualization_2.html">
-                            <img id="image_2" src="/assets/images/Fig4.png" class="figure-img img-fluid rounded" alt="Wind Speed vs City Latitude">
+                            <a target="_blank" href="visualization_4.html">
+                            <img src="/assets/images/Fig4.png" class="figure-img img-fluid rounded" alt="Wind Speed vs City Latitude">
                             </a>
                         </div>
     
